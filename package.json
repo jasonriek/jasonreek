@@ -1,0 +1,28 @@
+{
+  "name": "jasonreek",
+  "version": "1.0.0",
+  "description": "My page",
+  "homepage": "https://github.com/jasonriek/jasonreek#readme",
+  "bugs": {
+    "url": "https://github.com/jasonriek/jasonreek/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonriek/jasonreek.git"
+  },
+  "license": "ISC",
+  "author": "Jason Reek",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@fastify/static": "^8.3.0",
+    "@fastify/view": "^11.1.1",
+    "axios": "^1.13.1",
+    "dotenv": "^17.2.3",
+    "fastify": "^5.6.1",
+    "handlebars": "^4.7.8"
+  }
+}
