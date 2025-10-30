@@ -2,10 +2,10 @@
 require('dotenv').config();
 const axios = require('axios');
 
-const API_BASE = process.env.API_BASE;
+
 
 async function geologyRouter(fastify, options) {
-    const API_BASE = 'http://10.6.0.6:58233';
+    const API_BASE = process.env.API_BASE;
 
     // GET /api/geology/rocks → FastAPI /rocks
     fastify.get('/rocks', async (req, reply) => {
